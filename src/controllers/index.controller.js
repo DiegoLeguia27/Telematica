@@ -16,4 +16,7 @@ indexCtrl.renderHome = (req, res) => {
 indexCtrl.rendertrabajo = (req, res) => {
   res.render('trabajo');
 };
+indexCtrl.renderpapegu = (req, res) => {
+  res.render('papegu');
+};
 module.exports = indexCtrl;
